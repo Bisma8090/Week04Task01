@@ -28,36 +28,6 @@ The repository is organized into two main directories:
 
 ---
 
-## Project Structure
-
-task-manager-api
-│
-├── controllers
-│ ├── authController.js
-│ └── taskController.js
-│
-├── models
-│ ├── User.js
-│ └── Task.js
-│
-├── routes
-│ ├── authRoutes.js
-│ └── taskRoutes.js
-│
-├── middleware
-│ ├── auth.js
-│ └── validateRequest.js
-│
-├── config
-│ └── db.js
-│
-├── docs
-│ └── swagger.js
-│
-├── server.js
-└── README.md
-
----
 ## Installation & Setup
 
 1. Clone the repository:
@@ -94,5 +64,4 @@ task-manager-api
    http://localhost:5000
    ```
 
-```
 
