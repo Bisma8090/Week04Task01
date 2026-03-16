@@ -11,7 +11,9 @@ app.use(express.json());
 let tasks: Task[] = [
   { id: uuidv4(), title: 'Master TypeScript with React', isCompleted: false },
 ];
-
+app.get('/', (req: Request, res: Response) => {
+  res.send(' API is live and running!');
+});
 // 1. GET ALL TASKS
 app.get('/api/tasks', (req: Request, res: Response<Task[]>) => {
   res.json(tasks);
