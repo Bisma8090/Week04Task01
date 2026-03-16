@@ -1,4 +1,4 @@
-# Task Manager API
+# ToDo API
 Full-stack Task Management application built with **TypeScript** and the **MERN** stack. It features a "Purple" aesthetic, leveraging glassmorphism, smooth transition, and a responsive layout.
 
 ## 🚀 Live Demo
